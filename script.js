@@ -1,11 +1,11 @@
 /* ============================================================
-   CONTACT — edit these two lines with your email.
+   CONTACT - 
    The address is assembled in the browser, so it never appears
    as plain text in the page source (light protection against
    scraper bots).
    ============================================================ */
-const EMAIL_USER   = "your.name";     // <-- part before the @
-const EMAIL_DOMAIN = "example.com";   // <-- part after the @
+const EMAIL_USER   = "jaenai.rugengande-ihimbazwe";
+const EMAIL_DOMAIN = "etu.unistra.fr"; 
 const EMAIL = EMAIL_USER + "@" + EMAIL_DOMAIN;
 
 function openEmail() { window.location.href = "mailto:" + EMAIL; }
