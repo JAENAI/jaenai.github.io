@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaenai RUGENGANDE IHIMBAZWE — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name, network and systems engineer. Background, projects and skills." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== SHARED HEADER (identical on every page — keep in sync) ===== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html"><span class="brand__mark">JR</span> Jaenai&nbsp;RUGENGANDE IHIMBAZWE</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="career-plan.html">Career plan</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="skills.html">Skills</a>
+        <a href="resources.html">Extra-Professional</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== COVER / LANDING ===== -->
+    <section class="hero">
+      <div class="wrap hero__grid reveal">
+        <div>
+          <div class="status hero__status"><span class="dot"></span> Open to opportunities</div>
+          <h1>Jaenai RUGENGANDE IHIMBAZWE</h1>
+          <div class="hero__role"> Aspriring Network, Automation &amp; Systems Engineer</div>
+          <p class="lead">Welcome to my portfolio. Here I present my background, my projects and the skills I bring to building reliable, automated infrastructure.</p>
+          <div class="hero__cta">
+            <button class="btn btn--primary" href="mailto:jaenai.rugengande-ihimbazwe@etu.unistra.fr" id="email-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+              Email me
+            </button>
+            <a class="btn" href="https://www.linkedin.com/in/jaenai-rugengande-ihimbazwe/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <img src="assets/images/RUGENGANDE-IHIMBAZWE-Jaenai-001.jpg" alt="Jaenai RUGENGANDE IHIMBAZWE"
+               onerror="this.style.display='none';document.getElementById('portrait-fallback').style.display='grid';" />
+          <div class="portrait__fallback" id="portrait-fallback" aria-hidden="true">JR</div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME (biographical synthesis → leads to the project) ===== -->
+    <section class="about">
+      <div class="wrap reveal">
+        <p class="eyebrow">~/about</p>
+        <h2 class="title">About me</h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>I'm an aspiring network, automation and systems engineer drawn to the place where infrastructure meets software. I enjoy building environments that are stable, observable and automatable, and removing repetitive work through tooling.</p>
+            <p>My journey began in theoretical science; as an avid math and physics enthusiast throughout high school, I always looked for ways to apply abstract concepts to tangible creations.
+              This naturally led me to computer science which is a field rooted in mathematics that fundamentally transforms other industries. 
+              Over the course of my Bachelor’s degree in computer science, my focus shifted toward systems and networks, driven by a fascination with how complex systems communicate and scale. 
+              I've since applied this passion across diverse internships, from developing test suites for subsea systems and analyzing real-time architectures, to leveraging hardware features for low-latency inter-process communication.
+            </p>
+            <p>Currently, I am in my last year of a Master's degree in computer engineering, systems and networks 
+              while wrapping up my thesis internship at NTT Data, where I focus on network automation within the context of Network as a Service (NaaS).</p>
+          </div>
+          <aside class="skills">
+            <h3>At a glance</h3>
+            <ul class="facts">
+              <li><span class="k">Location</span><span class="v">Strasbourg, France</span></li>
+              <li><span class="k">Field</span><span class="v">Networks, Automation &amp; Systems</span></li>
+              <li><span class="k">Status</span><span class="v">Open to work</span></li>
+              <li><span class="k">Languages</span><span class="v">English, French, Spanish, German(Basics)</span></li>
+            </ul>
+          </aside>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== SHARED FOOTER (identical on every page) ===== -->
+  <footer>
+    <div class="wrap footer__inner">
+      <a class="brand" href="index.html"><span class="brand__mark">JR</span> Jaenai&nbsp; RUGENGANDE IHIMBAZWE</a>
+      <span class="muted">© <span id="year"></span> Jaenai RUGENGANDE IHIMBAZWE — Portfolio · hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

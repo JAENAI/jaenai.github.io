@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Jaenai RUGENGANDE IHIMBAZWE</title>
+  <meta name="description" content="Detailed projects and achievements — Jaenai RUGENGANDE IHIMBAZWE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html"><span class="brand__mark">JR</span> Jaenai RUGENGANDE IHIMBAZWE</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="career-plan.html">Career plan</a>
+        <a href="projects.html" class="active" aria-current="page">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="skills.html">Skills</a>
+        <a href="resources.html">Extra-Professional</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="wrap reveal">
+      <div class="page-head">
+        <p class="eyebrow">~/projects</p>
+        <h1>Projects &amp; achievements</h1>
+      </div>
+
+      <p class="lead projects-hint">Major projects spanning collaborative IoT platforms, research contributions, and infrastructure automation. Each demonstrates integration of systems knowledge with practical engineering.</p>
+
+      <!-- ================= PROJECTS: list (left) + detail panel (right) =================
+           HOW TO ADD A PROJECT:
+           1) copy one <button class="project-list__item"> and give it a new data-target, e.g. "p4"
+           2) copy one <article class="project-pane"> and give it the matching id="p4"
+           Keep exactly one .active list item and one .active pane (the default selection). -->
+      <div class="projects-layout">
+
+        <!-- ---- LIST ---- -->
+        <div class="project-list" role="tablist" aria-label="Projects">
+          <button class="project-list__item active" data-target="p1" role="tab" aria-selected="true">
+            <span class="t">IoT Data Sharing Platform</span>
+            <span class="s">Full-stack · Embedded</span>
+          </button>
+          <button class="project-list__item" data-target="p2" role="tab" aria-selected="false">
+            <span class="t">Real-Time Systems Research</span>
+            <span class="s">Scheduling · Optimization</span>
+          </button>
+        </div>
+
+        <!-- ---- DETAIL PANELS ---- -->
+        <div class="project-panels">
+
+          <!-- PANE 1 -->
+          <article class="project-detail project-pane active" id="p1" role="tabpanel">
+            <h2>Master's Capstone Project: IoT Data Sharing Platform</h2>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Embedded</span>
+              <span class="tag">Ollama</span>
+              <span class="tag">Smartwatch</span>
+            </div>
+            <figure class="figure" style="margin:18px 0 4px">
+              <div class="illus">
+                <img src="assets/images/ss_architecture.png" alt="Illustration of the IoT data sharing platform"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+                <div class="illus__ph">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+                  <span>Illustration of the IoT data sharing platform</span>
+                </div>
+              </div>
+              <figcaption class="illus-cap">Architecture: full-stack IoT platform with smartwatch prototype and analytics integration.</figcaption>
+            </figure>
+            <div class="detail-grid">
+              <div class="detail-block"><h4>Context</h4><p>Master's capstone project as part of the final engineering program. Team of 5 students collaborated to design and implement a full-stack IoT data platform with connected device support.</p></div>
+              <div class="detail-block"><h4>Stakes &amp; Challenge</h4><p>Build a scalable, user-friendly IoT platform enabling collaborative data sharing between connected devices. Deliver a smartwatch prototype for real-world validation and support analytics-driven insights.</p></div>
+              <div class="detail-block"><h4>Missions &amp; Contributions</h4><p>Architected data flow from IoT sensors to the analysis layer. Designed and prototyped smartwatch firmware for sensor data capture. Coordinated full-stack implementation from embedded systems to cloud-facing services.</p></div>
+              <div class="detail-block"><h4>Results</h4><p>Delivered a functional platform with smartwatch prototype and analytics integration. Produced project proposal, response documents, and comprehensive thesis on architecture and implementation. Platform supports real-time collaborative data analytics for IoT sensor networks.</p></div>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--sm" href="https://github.com/lucianmocan/sharing_square" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <!-- PANE 2 -->
+          <article class="project-detail project-pane" id="p2" role="tabpanel">
+            <h2>Real-Time Systems Research Study</h2>
+            <div class="tags">
+              <span class="tag">Real-Time Systems</span>
+              <span class="tag">Scheduling</span>
+              <span class="tag">Compilation</span>
+              <span class="tag">Research</span>
+            </div>
+            <div class="detail-grid">
+              <div class="detail-block"><h4>Context</h4><p>Research and study project (Travail d'Étude et Recherche) conducted at University of Strasbourg.</p></div>
+              <div class="detail-block"><h4>Stakes &amp; Challenge</h4><p>Survey and analyze scheduling algorithms and compiler-level optimizations for real-time systems. Understand trade-offs between predictability, performance, and resource efficiency in time-critical applications.</p></div>
+              <div class="detail-block"><h4>Missions &amp; Contributions</h4><p>Conducted comprehensive literature survey on real-time scheduling techniques. Analyzed compilation optimization strategies specific to real-time constraints. Synthesized findings and identified research gaps and future directions.</p></div>
+              <div class="detail-block"><h4>Results</h4><p>Completed thesis documenting scheduling paradigms (fixed-priority, dynamic, multi-core), compilation-aware optimizations, and practical applications. Research contributes to understanding how to optimize systems for predictable, deterministic behavior—critical for aerospace, automotive, and industrial systems.</p></div>
+            </div>
+            <div class="card__links">
+              <a class="btn btn--sm" href="assets/docs/TER_Dissertation-1.pdf" target="_blank" rel="noopener">Dissertation</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap footer__inner">
+      <a class="brand" href="index.html"><span class="brand__mark">JR</span> Jaenai RUGENGANDE IHIMBAZWE</a>
+      <span class="muted">© <span id="year"></span> Jaenai RUGENGANDE IHIMBAZWE — Portfolio · hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
